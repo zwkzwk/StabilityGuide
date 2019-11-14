@@ -35,7 +35,8 @@
 ### 2. 事中“止血”
 #### 2.1 监控告警
 ###### [虾米SRE实践：监控体系升级之路](docs/processing/monitor/虾米SRE实践_监控体系升级之路.md) 
-###### [阿里云ARMS小程序监控进阶之路](docs/processing/monitor/阿里云ARMS小程序监控进阶之路.md)
+###### [阿里云 ARMS 小程序监控进阶之路](docs/processing/monitor/阿里云ARMS小程序监控进阶之路.md)
+###### [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)
 
 #### 2.2 异常巡检
 #### 2.3 流量调度 
@@ -45,12 +46,8 @@
 
 ### 3. 事后诊断
 #### 3.1 系统诊断
-##### 3.1.1 CPU
 ###### [So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/SoHot？快给CPU降降温.md)
-##### 3.1.2 Load 高
-##### 3.1.3 网络诊断
-##### 3.1.4 磁盘诊断
-
+###### [记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/记一次线上内存报警排查过程.md)
 
 #### 3.2 JVM 诊断
 ##### 3.2.1 异常诊断
@@ -69,14 +66,9 @@
 
 
 #### 3.3 组件诊断
-##### 3.3.1 数据库诊断 
-##### 3.3.2 缓存诊断
-##### 3.3.3 消息诊断
-##### 3.3.4 RPC 诊断
 ###### [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
-##### 3.3.5 流计算诊断
-##### 3.3.6 软负载诊断
-###### [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)
+###### [Nacos 常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)
+###### [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)
 
 #### 3.4 在线诊断 
 ##### Arthas
@@ -114,10 +106,13 @@
     * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷
     * [数据一致性检测应用场景与最佳实践](docs/processing/lostprevention/数据一致性检测应用场景与最佳实践.md)@龙多
     * [链路追踪（Tracing）其实很简单——初识](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)@涯海
-* 2019-10-10
+* 2019-11-07
     * [链路追踪（Tracing）其实很简单——单链路诊断](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)@涯海
+    * [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)，@洛夜
+    * [记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/记一次线上内存报警排查过程.md)@神帅
+    * [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)@李刚
+* 待定
     * SchedulerX 常见问题及解决方法，@学仁
-    * SpringCloud 常见问题及解决方法，@洛夜
     * RocketMQ 常见问题及解决方法，@丁磊
     * 流计算诊断，@云邪
     * 慢 SQL 常见原因及解决方法，@长源
