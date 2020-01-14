@@ -1,7 +1,7 @@
 
 [![license](https://badgen.net/badge/license/CC-BY-4.0/green)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 [![github](https://badgen.net/badge/github/StabilityGuide/orange)](https://github.com/StabilityMan/StabilityGuide)
-[![chat](https://badgen.net/badge/chat/dingding/blue)](https://github.com/StabilityMan/StabilityGuide/blob/master/DingGroup.JPG)
+[![chat](https://badgen.net/badge/chat/dingding/blue)](https://github.com/StabilityMan/StabilityGuide/blob/master/DingGroup_2.png)
 
 
 > 稳定性之于系统，就像健康之于人类，看起来重要不紧急，然而一旦失去，就追悔莫及。
@@ -15,7 +15,9 @@
 
 ## 加入我们
 * [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
-* 钉钉群号：23179349
+* 钉钉群号
+  * 30000312（2群，推荐） 
+  * 23179349（1群，已满）
 * 如果你在本专栏有所收获，欢迎分享给身边的朋友，期待更多同学的加入！
 
 ## 框架目录
@@ -67,8 +69,10 @@
 
 #### 3.3 组件诊断
 ###### [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
+###### [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)
 ###### [Nacos 常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)
 ###### [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)
+###### [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)
 
 #### 3.4 在线诊断 
 ##### Arthas
@@ -76,6 +80,7 @@
 #### 3.5 链路追踪 
 ###### [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)
 ###### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
+###### [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)
 ###### [链路追踪（Tracing）其实很简单——初识.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)
 ###### [链路追踪（Tracing）其实很简单——单链路诊断.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)
 
@@ -111,10 +116,12 @@
     * [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)，@洛夜
     * [记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/记一次线上内存报警排查过程.md)@神帅
     * [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)@李刚
+* 2019-12-26
+    * [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)@学仁
+    * [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)@岛风
+    * [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)@竹影
 * 待定
-    * SchedulerX 常见问题及解决方法，@学仁
     * RocketMQ 常见问题及解决方法，@丁磊
-    * 流计算诊断，@云邪
     * 慢 SQL 常见原因及解决方法，@长源
     * 缓存诊断，@辰仪
     * 系统稳定性之于 RocketMQ，@傅冲
